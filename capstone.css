@@ -1,0 +1,201 @@
+.body{
+    width: 1440px;
+    height: 5111px;
+    min-height: 900px;
+    top: -1925px;
+    left: 309px;
+    padding: 0px 48px 0px 48px;
+    gap: 0px;
+    color: #FFFFFF;
+}
+div .links{
+    display: flex;
+    width: 442px;
+    height: 32px;
+    align-items: center;
+    gap: 32px;
+    justify-content: right;
+}
+
+header{
+    display: flex;
+    width: 1344px;
+    border-bottom: 1px solid black;
+    padding: 16px 0px 0px 0px;
+    align-items: center;
+    gap: 0px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+} 
+  
+header .glamour{
+    width: 137px;
+    height: 48px;
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+header .glamour div{
+    width: 137px;
+    height: 33px;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #000000;
+}
+
+header .home{
+    width: 56px;
+    height: 32px;
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+header .portfolio{
+    width: 124px;
+    height: 32px;
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+header .about{
+    width: 69px;
+    height: 32px;
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em; 
+    color: #000000;
+}
+
+header .contact{
+    width: 97px;
+    height: 32px;
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 28px;       
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+h2.bord{
+    display: flex;
+    align-items: flex-start;
+    width: 1504px;
+    border-bottom: 1px solid #000;
+}
+
+body{
+    width: 1440px;
+    height: 5111px;
+    min-height: 900px;
+    top: -1925px;
+    left: 309px;
+    padding: 0px 48px 0px 48px;
+    gap: 0px;
+}
+
+.layout{
+    display: block;
+    width: 1344px;
+    height: 4767px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    width: 1344px;
+    height: 240px;
+    font-family: 'DotGothic16', sans-serif; 
+    color: #000000;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.layout1{
+    width: 1344px;
+    height: 4767px;
+
+
+}
+
+.i1layout{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 1344px;
+    height: calc(1152px - 96px - 96px - 1px);
+    padding: 96px 0px 96px 0px;
+    gap: 48px;
+    border-bottom: 1px solid #000;
+}
+
+img {
+    width: 1344px;
+    height: 671px;
+    border-top: 1px solid #000000;
+}
+
+.i2layout{
+width: 1344px ;
+height: 360px ;
+padding: 48px 0px 48px 0px;
+}
+
+.discover{
+    font-family: 'DotGothic16';
+    display: flex;
+    width: 1344px;
+    height: 120px; 
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    justify-content: left;
+}
+
+.mywork{
+    font-family: 'DotGothic16';
+    display: flex;
+    width: 1344px;
+    height: 120px; 
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    justify-content: center;
+}
+
+.instyle{
+    font-family: 'DotGothic16';
+    display: flex;
+    width: 1344px;
+    height: 120px; 
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    justify-content: right;
+}
