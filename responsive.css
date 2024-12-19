@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+.nav-parent{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 0rem 0;
+}
+.nav{
+    width:100%;
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.glamour{
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 42px;
+}
+.links > a{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}   
+.links{
+    font-family: 'DotGothic16', sans-serif; 
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: right;
+}
+.i1layout{
+    font-size: 40px ;
+    line-height: 90px ;
+    font-family: 'DotGothic16', sans-serif;
+}
+.layout{
+    text-align: center;
+}
+.layout1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.i2layout{
+    font-size: 120px ;
+    line-height: 120px ;
+    font-family: 'DotGothic16', sans-serif;
+    padding: 0 3rem;
+}
+.discover{
+    display: flex;
+    justify-content: left;
+}
+.mywork{
+    display: flex;
+    justify-content: center;
+}
+.instyle{
+    display: flex;
+    justify-content: right;
+}
+.est{
+    text-align: right;
+    width: 100%;
+    font-size: 20px;
+    transform: translateY(+90px)translateX(-3.8rem) ;
+}
+.bas{
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+     transform: translateY(-40px) translateX(3.8rem) ;
+}
+
+
+
+
+
+.about_me{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.about_me > p{
+    font-size: 48px;
+    font-family: 'DotGothic16', sans-serif;
+    line-height: 62px;
+    text-align: center;
+    padding: 6rem 2rem;
+    width: 60%;
+}
+
+@media screen and (max-width: 768px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links > a{
+        font-size: 16px;
+    }  
+    .nav-parent{
+        padding: 0rem 0rem;
+    }
+    
+    .i1layout{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .i1layout > img{
+        width: 95vw
+    }
+    .i2layout{
+        font-size: 40px ;
+        line-height: 30px ;
+    }
+    .est{
+        font-size: 10px;
+        transform: translateY(+30px)translateX(-2rem) ;
+    }
+    .bas{
+        font-size: 10px;
+        transform: translateY(-20px) translateX(1.8rem) ;
+    }
+    .about_me > p{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 2rem 1rem;
+    } 
+}
+

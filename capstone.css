@@ -1,12 +1,13 @@
 .body{
-    width: 1440px;
-    height: 5111px;
+    width: 100%;
+    height: 100%;
     min-height: 900px;
     top: -1925px;
     left: 309px;
     padding: 0px 48px 0px 48px;
     gap: 0px;
     color: #FFFFFF;
+    position: relative;
 }
 div .links{
     display: flex;
@@ -95,7 +96,7 @@ header .contact{
     letter-spacing: -0.01em;
     color: #000000;
 }
-
+/* 
 h2.bord{
     display: flex;
     align-items: flex-start;
@@ -144,7 +145,7 @@ h1{
 
 .i1layout{
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 3fr;
     width: 1344px;
     height: calc(1152px - 96px - 96px - 1px);
     padding: 96px 0px 96px 0px;
@@ -173,7 +174,7 @@ padding: 48px 0px 48px 0px;
     font-weight: 400;
     line-height: 120px;
     letter-spacing: -0.02em;
-    justify-content: left;
+    
 }
 
 .mywork{
@@ -203,7 +204,6 @@ padding: 48px 0px 48px 0px;
 .photo-gallery{
     width: 1344px;
     height: 1191px;
-    border-bottom: 1px solid #000;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
@@ -214,19 +214,22 @@ padding: 48px 0px 48px 0px;
 
 .row1{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 1344px;
-    height: 429px;
+    height: 333px;
     padding: 48px 0px 48px 0px;
     gap: 48px;
+    margin: 0px;
 }
 
 .row2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1344px;
-    height: 381px;
+    height: 285px;
     padding: 0px 0px 48px 0px;
     gap: 48px;
+    margin: 0px;
 
 }
 
@@ -234,30 +237,17 @@ padding: 48px 0px 48px 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1344px;
-    height: 381px;
+    height: 285px;
     padding: 0px 0px 48px 0px;
     gap: 48px;
+    margin: 0px;
 }
 
 .photo1{
     width: 416px;
     height: 277px;
     gap: 0px; 
-    border-top: 1px solid #000000
-}
-
-.photo11{
-    width: 416px;
-    height: 24px;
-    gap: 0px;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Archivo';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-
+    border-top: 1px solid #000000;
 }
 
 .photo2{
@@ -273,3 +263,236 @@ padding: 48px 0px 48px 0px;
     gap: 0px;
     border-top: 1px solid #000000
 }
+
+.photo4{
+    width: 416px;
+    height: 333px;
+    gap: 8px;    
+    border-top: 1px solid #000000;
+}
+
+.photo5{
+    width: 416px;
+    height: 333px;
+    gap: 8px;    
+    border-top: 1px solid #000000;
+}
+
+.photo6{
+    width: 416px;
+    height: 333px;
+    gap: 8px;     
+    border-top: 1px solid #000000;
+}
+
+.photo7{
+    width: 416px;
+    height: 333px;
+    gap: 8px;    
+    border-top: 1px solid #000000;
+}
+
+.photo8{
+    width:  416px;
+    height: 333px;
+    gap: 8px;
+    border-top: 1px solid #000000;
+}
+
+.photo9{
+    width: 416px;
+    height: 333px;
+    gap: 8px;     
+    border-top: 1px solid #000000;
+}
+
+.about-section{
+    width: 1344px;
+    height: 400px;
+    padding: 96px 0px 96px 0px;
+    gap: 0px;
+    /* border-top: 1px solid #000000; */
+    display: flex;
+    justify-content: center;
+}
+
+.about-section p{
+    width: 900px;
+    height: 208px;
+    max-width: 900px;
+    gap: 0px;
+    font-family: "DotGothic16";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    
+}
+
+.featured{
+    width: 1344px;
+    height: 898px;
+    gap: 0px;
+    border-bottom: 1px solid #000000;
+}
+
+.girl-layout{
+    position: relative;
+    width: 800px;
+    height: 900px;
+    left: 572px;
+    padding: 0px 68px 0px 0px;
+}
+
+.glayout{
+    display:flex;
+    position: relative;
+    width: 1344px;
+    height: 900px;
+    left: -96px;
+    gap: 0px;
+    background: radial-gradient(184.11% 185.17% at 28.27% 7.59%, rgba(255, 255, 255, 0.7) 37.83%, rgba(36, 25, 243, 0.042) 100%);
+}
+
+.girl{
+    width: 732px;
+    height: 1026px;
+    left: 572px;
+    padding: 0px 68px 0px 0px;
+    object-fit: cover; 
+}
+
+.agency{
+    width: 1344px;
+    height: 280px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    background: #FFFFFF;
+}
+
+.what{
+    width: 648px;
+    height: 32px;
+    gap: 0px;
+    font-family: 'DotGothic16';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000000;
+}
+
+.text_layout{
+    width: 624px;
+    height: 244px;
+    top: 328px;
+    position: relative;
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.time_{
+    width: 624px;
+    height: 68px;
+    gap: 0px;
+    font-family: 'DotGothic16';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #000000;
+    justify-content: center;
+    display: flex
+;
+}
+
+.explore{
+    width: 624px;
+    height: 64px;
+    gap: 0px;
+    font-family: Archivo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    /* text-align: left; */
+}
+
+.services-section {
+    background: #fff;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px 48px;
+    color: #000;
+    font-weight: 400;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 48px 0;
+}
+    
+.section-title {
+    letter-spacing: -0.28px;
+    flex: 1;
+    flex-basis: 0%;
+    font: 28px/1 DotGothic16, sans-serif;
+}
+        
+.services-container {
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    flex-basis: 0%;
+    font: 20px/1.2 Archivo, sans-serif;
+}
+        
+.services-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px 48px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+        
+.services-row:first-child {
+    margin-top: 0;
+}
+        
+.service-item {
+    align-self: stretch;
+    flex: 1;
+    flex-basis: 0%;
+    margin: auto 0;
+}
+        
+.single-service {
+    align-self: stretch;
+    flex: 1;
+    width: 100%;
+    gap: 40px 48px;
+}
+        
+@media (max-width: 991px) {
+    .section-title,
+    .services-container,
+    .services-row,
+    .single-service {
+      max-width: 100%;
+    }
+    .services-row {
+         white-space: initial;
+    }
+}
+
+
+/* TESTIMONIAL STYLE */
