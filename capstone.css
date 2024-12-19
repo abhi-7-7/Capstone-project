@@ -199,3 +199,77 @@ padding: 48px 0px 48px 0px;
     letter-spacing: -0.02em;
     justify-content: right;
 }
+
+.photo-gallery{
+    width: 1344px;
+    height: 1191px;
+    border-bottom: 1px solid #000;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center; 
+    padding: 20px;
+
+}
+
+.row1{
+    display: grid;
+    width: 1344px;
+    height: 429px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1344px;
+    height: 381px;
+    padding: 0px 0px 48px 0px;
+    gap: 48px;
+
+}
+
+.row3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1344px;
+    height: 381px;
+    padding: 0px 0px 48px 0px;
+    gap: 48px;
+}
+
+.photo1{
+    width: 416px;
+    height: 277px;
+    gap: 0px; 
+    border-top: 1px solid #000000
+}
+
+.photo11{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Archivo';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.photo2{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-top: 1px solid #000000
+}    
+
+.photo3{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-top: 1px solid #000000
+}
