@@ -239,8 +239,6 @@ h3 {
     justify-content: start;
     gap: 1rem;
     justify-items: start ;
-    /* flex: 1;
-    flex-basis: 0%; */
     font: 20px/1.2 Archivo, sans-serif;
 }
         
@@ -260,8 +258,6 @@ h3 {
         
 .service-item {
     align-self: stretch;
-    flex: 1;
-    flex-basis: 0%;
     margin: auto 0;
 }
 
@@ -359,12 +355,10 @@ h3 {
     letter-spacing: -0.48px;
     text-align: center;
     align-self: center;
-    z-index: 1;
     font: 400 48px/1 DotGothic16, sans-serif;
 }
         
 .testimonials-grid {
-    z-index: 1;
     display: flex;
     margin-top: 48px;
     width: 100%;
@@ -413,8 +407,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    flex: 1;
-    flex-basis: 0%;
     margin: auto 0;
 }
     
@@ -445,18 +437,13 @@ h3 {
                           
 .quote-text {
     color: #000;
-    flex: 1;
-    flex-basis: 0%;
     font: 400 20px/24px Archivo, sans-serif;
 }
                             
 .testimonials-border {
-    aspect-ratio: 1000;
-    object-fit: contain;
     object-position: center;
     width: 1536px;
     position: absolute;
-    z-index: 0;
     max-width: 100%;
     left: -48px;
     right: -48px;
